@@ -1,0 +1,164 @@
+
+print "You enter a dark room with two doors. Do you go through door #1 or door #2"
+
+
+door = raw_input("> ")
+
+if door == "1":
+	print """There's a giant bear here eating a cheese cake. What do you do?
+     ..    . ..  id##$k$#w$k. . ..                                                                   .... . ijt.j. ...                                                            
+                                                .   .. .   j#wkt..  .id$wt  . .                                                                    . id#www@@wdi.  .  .                                                       
+                                                .     .  ik#di.    .   iw@k . .                                                                 .  .i#wkjik@k$wwwt...                                                         
+                                                 ..     t#ki.. ..   ... t##k..                                                                   . iw$j  iwd. .jk@#i.. .                                                      
+                                                 .  . .d#t.       .   . tkiwd. .                                                                 ..$#. .i#$   .  j$wki                                                        
+                                                ..   .d#i. .    .       i#ijwt.                                                                .. dw. i dw. .  .  .tw#j                                                       
+                                                  ...k#i...       ..     $t twi                                                                . jwj . iwt.. . ..   i#wj                                                      
+                                                . ..d$.                  dk .k#i .  . .                                           .     .     i .#k . .tw..   .  ..  ik@j  .                                                  
+                                                 . t$...                 dk .i$$.  .                                                      ..   .t#i  . k$ .   . .  .. ikwi . .                                                
+                                                 .i#i. .                 t$   jwt... ..           ...                           ..       .   i .#d . ..#d . .      .   .#$..                                                  
+                                                  kd ..                  d$  . d@$kj.  .                ....          ..            .....  ..  k$i    j#j . .    ..  .. i@t . .                                               
+                                                 .ki. .                  kd  . .k##w#ktijjjjjjjjjii.......              ...             .   . t#i.   .jwi .          ... kw...                                                
+                                                ..ti   .                 kd . . .i .d$w@wwwwwwwwwwww########$$kk$kkkk$$$########$kkkkkkdddttd$$j   . .t#.              ...w$ ..                                               
+                                                ..ki .                   kk .  . ..   ..iiiiiiiiiijjttjjjtdkk$$$$$$$$$$$ddddkkkk$$$$$$####www$t . ..  d#.         .     ..t@i .                                               
+                                                 j$.. .                 .$t   .   .... .                          ...                 ...... . . .  . jw.              . i #$ .                                               
+                                                 t$.             .      .#j ..                                                                    .   jwi ..  .          ..t@i .                                              
+                                                 t$.                    i#i  .                                                                    .   iwj.  .           .  iwt .                                              
+                                                 j#.                  . j#i                                                                          ..#d.  .           .   $$..                                              
+                                                 j#i                 .  d$.                                                                          . $k .  .            . dw.                                               
+                                                 i#i            .    .  $d .                                                                         . d# .  .            ..iwi                                               
+                                                 .#i            .    . i#j ..  .                                                                     . jwi . .             .iwj                                               
+                                                 .#j              .    t$..                                                                            .#d .            .   jwi                                               
+                                                 .#j .            . . .d$ .                                                                      .    . k$..  .           . dw.                                               
+                                                ..$t            .  .. i#t. .          .  .  .  .  .                       ... .  ..  ..  .  . .         jwj . .          . .#k .                                              
+                                                . $d                . j#i  .  .    ..  .     .. .. .                      . .  .    .  .. .  .          .$k. .           . j@j .                                              
+                                                  dk .              . k$  .   . .     ...  .  .  . .   .                .    .. itti.    .               twj            .  $#.                                                
+                                                  j#..          . .. .wj  ..  .  ..      jk##wkj   .  .                   .. id####w#di  .  .            .$$. .         . j@j .                                               
+                                                  .#t           . .  d#.. ..    .   ...t$#$tjt$wt ..                     .  t#wkji .d##$j ..            ..iwt  .         .##. .                                               
+                                                .  d$ .           . i#t..      .  .. ikwdj    .d#j .                       i#ti.  ..  j$#j                 d#.           twj . .                                              
+                                                .  i#i.            .d$..            j##j   ...  #k                       ..t$   ..   ...k$j .              .#d. .       .#k. . .                                              
+                                                 . .$d .        .  jwj.  .       . i#k. .  .  . d#.  .                  .  kd .    ..    $#i .           .  twi ...     j@j . .                                               
+                                                .   t#.. ..   ..  .#d .          . k#. . ..  .. t#.                        kt..   .   . . $$. .          .. .$#i.. . .  $#..                                                  
+                                                .   i#i...  ..  . k$.. .         .j#j. ..  .  . $$   .                   . $d ..    .. . .jwj  .        .    ik#i.. .. jwd    .                                               
+                                                   . kk .  .  .. twj. .           $$ ..   . .. t#t . .                   . tw.    .. . . . $k.             .. .dwd.   dwwi   .                                                
+                                                   . j@i. .   . t#t .            .wj  .  .. .tkwd. .                    . ..$#. .  ..   . .t#i           .  .   j$ktidw@k .                                                   
+                                                .    .w#.  .. .d#d.              t#.   .   dw#kj.                         . i$$i  . ..     i#j .              .. .d$w#$wj .                                                   
+                                                    . j@#i . j$#t     .         .d$.      kwti.  ..                      . ...#$j i  ..  . jwi .           .  . . ...iw$..                                                    
+                                                   ..  k@@$d$wd. . . .          .d$ . .  d#j   . ..  .                  .  . ..$wi .  .    jw..               .     .dwi .  .                                                 
+                                                     ..i$dk#di. . . .  .         k$   . jwj . . .    . .                 .  .   kwi . . . .j#i .         .  .   ... j@t.    .  .                                              
+                                                        kd   ..                 .d$. ...$k ..  .                               . $# .. .  .d# .                  .  $#.                                                       
+                                                        ikd. . .                 j#t . t#i . .                                  .iwj  .. . kk ..                .  jwt                                                        
+                                                         j$..                     k$.  $k                                         $$.. .. i@t                   . .##.                                                        
+                                                         .d..                   . twd.j#i.. . .                                 . j@i...  k#. ..                 ..wk ..                                                      
+                                                         jt .  .                   d#w#d i  . .                                 . .#k    dwt..                   ..t#.                                                        
+                                                         tt.  .                  .. jtj. .   .                                   . twktd$wd   .                 . .iw.                                                        
+                                                        .ti.  .                 ...  . ..  . .                                  .  .t###kt. . .                 .  jwi .                                                      
+                                                        .di .  .                   ..    ....                                    .    ..    .                    . i@j .                                                      
+                                                        .k. .                           .  .. jddji ..                ..    ij . . .  .                            iwt                                                        
+                                                        .k.                              .. .k##$$$d  .               .  id#ww#d.   .                              .wd                                                        
+                                                        id.                             .  .$wt. .t##j .            ..  j#$kdtdwd.  .                              .#d                                                        
+                                                        jd.                             . .k#i  .. .k#.              . .#d.    twi .                                $k                                                        
+                                                        td                              . .wt... ... wd.         .     j#. . . .#d .                                $k                                                        
+                                                        tt                               .tw.   .  . k$          .     d$   ..  d$.  .                              #d                                                        
+                                                        dt .                            . d$.     . .d#          . .   $k ..  ..d$. .                              .#d                                                        
+                                                        dt .                            . d#  . .. . k$.         . .   $k  .. . $k .. .                            .wt                                                        
+                                                        dj .                     ..     . t#.. .  . iwt..    ..  .  . .d$.  .. jwj.  .                           . iwj .                                                      
+                                                        kj .                    .       . iwj  ..  .$$...        .  .  iwt .  twk. ..  .                         . jwi .                                                      
+                                                       .kj .                               k#.    idwj  .ijtttjjiiiiiiiikw$ddkwk.  ...                             jw.                                                        
+                                                       .kj .                             ...$$kdtd#@w$w#wwwwwwwwwwwwwwwww@@@@#t . .                               .t#.                                                        
+                                                       .kj .                     .    ...   i#@@@@wkttttjji...iijjjjjjjjjt$#ww$ki.  ....                        .  d#.                                                        
+                                                       .kj .                         .    t##w#dtti .. .           .    .   .jk#@$t. ..                         .  k$                                                         
+                                                       .kj .                       ..  .i$@$t...  . . . ..         ..    ...    j$w#j  .                           $k                                                         
+                                                       .kj .                    .  .  it@$i  .   .    . ..       .        .  .    j#wd.                           .#d  .                                                      
+                                                        kj                       .   j$wti  .  .                                 .  dw$. ..  .                   .iwj                                                         
+                                                        kt                   .... ..kw$..  ..                                   . .. j##i....  .                 .iwj                                                         
+                                                        kt                       ..dwt .  .                                      .    j#wi .                    . j#i .                                                       
+                                                        dt                      . dwj .....                                      .  .  .#wi . .                   d#. .                                                       
+                                                        dd .                .  . twj ..     .                                     ..  . .##j                      k$  .                                                       
+                                                        dd .                .   i#d .  .   .   .                                 .  .  .  #wj                    .#d  .                                                       
+                                                        dd .                   .$# .. . .      .                                .   ..  . .$#i                   .wt                                                          
+                                                        dd .                  .j@t .         .                                    .   .    .#w.                 .iwj.                                                         
+                                                        dd                 . ..w#. .                                                     .. iwd                  jwi   .                                                      
+                                                        tk                ..  k#i .. .                                                  . .  dwj .               t#.                                                          
+                                                        t$                   .@d  .  . .                                                     .##. .   .          k$                                                           
+                                                        j$.                  dwi...  . .                                                 .  . j@j .              #k                                                           
+                                                        i$.              .. iwd .   ..                                                  .  .   $#. ..           .wd                                                           
+                                                        .$j               . dwi   .   .                                                     . .j@t  ..          iwj.                                                          
+                                                        .kt             .  .#k.  ..   .                                                  .  . ..$#. .           t#.                                                           
+                                                         kd             . .t@i .    .                       ....                          ..  . j@j . .         k#   .                                                        
+                                                         tk             . .#$  .                .   . ..id$#w#$w##$kti.  .  .                    wk.  .      ...#d ..                                                         
+                                                         i$.  .         . iwt.                   . . . tww$ddddddk##w@#d. ..   .                 dw.   .  .    jwj .                                                          
+                                                        . $j . .         .tw. .                      j#@$i .     ....t$w#j ..                    i@j.  .  .    d#. . .                                                        
+                                                        . dk . .          k#  .                 . ..dw@di     . .  .  .j#wd . .                  .wd .     .. .#k    .                                                        
+                                                          i#i             $k.                    . kwk.  ...    .   ..  .k@t ..                 . $$ .. .  .  iwj .                                                           
+                                                           kd .          .$k.. .                  kwj ..    .  .  .       k@i                   . $#.    . .  dw..                                                            
+                                                         . j$. .         .#d . .                .d@i i . ..  .  .     ... iwd .                 . dwi  . . . .#k .                                                            
+                                                         . .$j .         .wd  .                 d@j .   .  .             . twi .                . iwj    .  .jwi   . .                                                        
+                                                            d$    .   .  iwt .            ..  .twt     .                 . iwt .                . iwt     . .k#                                                               
+                                                          . i$j .  . .   iwj             .  . .$k. ...                     .#d                    .wt     . iwj.                                                              
+                                                             kk.   . .   iwj             .  . iwj .  .                     .#k                    .wd  .. . tw.                                                               
+                                                         .   i$j i  .    iwj.                 iwj   .. .                 . i#d .                 ..wd   .  .#k.                                                               
+                                                         .  . d$.   .    iwi.                 iwi .. . .                 . jwj .                  .wt    . twi .                                                              
+                                                        .  .  .#d ..     iwj             .  . .wt  .  .                  . dw.                    iwt .   iwk                                                                 
+                                                           . . t$i.. .   iwj             .  .  kwj ..                     i#k .                 . jwj . ..k#. .                                                               
+                                                           . .. $k  .  . iwt .             . . i$#t                     . twj .                 . twi .  twj .                                                                
+                                                         .    . i#t  .. ..#k . .                .kwki   . .   .     .  . j@k  .            .  .  .#$  . i@t.. .                                                               
+                                                           .. .. t#i.  .. $$  .                 . t#wkt.  . .           dw$...          . . .i  .dwi . i#$. .                                                                 
+                                                           .     .$$. .   dwi.                   . .t$@#$ktjjiij...iitk#wdi   ..           .   ..wd ..i#$ti   .                                                               
+                                                        .     .  tdk$. .. iwj. .                ... ..id$##www@#w##w@w#kj  ..            .    . $w.. i$#.t$.   .                                                              
+                                                             .. .#t.$$. . .#k                          . ..ijjwdttdti... .  . ..          . .. d@t  j##  jw...                                                                
+                                                          . ..  d$. .$$j ..d@i .                .  . .       i$i.    .    ....             .  twd..kwk....#j. .                                                               
+                                                         .. .  i#j .. d#i. .#k. .                j.   .   .  t#.     ...     . .        .. .it#kik##t. .  $k  .                                                               
+                                                            . .d$. . . d#j. j@d ..              .#j .     . .$$  ..      ..di .           .d#w#$w#d.. . . d#..                                                                
+                                                         .  . iwi.     .d$t. d@t .             . $$    . ....@#.  .   . . $#.. ..  ..  . j$@@w#$i.   .... jwi                                                                 
+                                                            . kk.   .    t$#t.d@d. ..  .         d#j .  .  .k$#d..  .. . dwj. ..        dw@@$di ..  .     .wj.                                                                
+                                                          .  jwj   .    . .d@kidw#t  .       .. ..#wt  ... t#ijwk. ..  .t#k        ...t#@wkj   .           #k..                                                               
+                                                          .  $k .      .. . .d$k#w@#j.. ..        .kw#t   jwd..jwwkjijd$wk ...  .. .t$w#di...              dw..                                                               
+                                                         .. twi .          .   iiiidw#ti.. ....... .ik@#ddw$. . .t#wwww$j  .  .. ikw@#t.        .       .  i@j .                                                              
+                                                           .#k .           . ..    .idww#$t.   . ..  .id##d  . . ..ijj..  i .idk#wwdi.   ..                .#$                                                                
+                                                           twi           .  .   ..    .id$#@w$tii  . ..    . .   ..   .  ijd#@##kt.  ....   ..            . twi                                                               
+                                                        . .$k           .  .  ..   .      .jd$w@wwkkti.... .. . .  .ijtk#@w#kj..   ..                     . i@t                                                               
+                                                        . jwi .                               .ijtk#www#############www#dti.                             .  .$$.. ..  .                                                       
+                                                         .kk. .                           .    .   ..jttkkkkkkkkkkdtji. .                               . .. jwt .                                                            
+                                                         jwj   .                                                  .  .                                    ..  $#. .  .                                                        
+                                                         d#. .                               .........            .     ..                               .   ..$d .                                                           
+                                                        .#d ..                          .                             ..                                                     """
+	
+    
+	
+	
+	
+	
+	
+	print "1.Take a cake."
+	print "2.Scream at the bear"
+
+	bear = raw_input("> ")
+
+
+	if bear == "1":
+		print "The bear eats your face off. Good job!"
+	elif bear == "2"
+		print "The bear eats your legs off. Good job!"
+	else:
+		print "Well.doing %s is probably better. BEAR runs away." % bear
+
+elif door == "2":
+	print "You stare into the endless abyss at Ctulhu's retina."
+	print "1.Blueberies"
+	print "2.Yellow jacket clothespins."
+	print "3.Understanding revolvers yelling melodies."	
+
+
+	insanity = raw_input("> ") # raw_input ???
+
+	if insanity == "1" or insanity == "2":
+		print "Your body survives powered by a mind of jello. Good job!"
+	else:
+		print "The insanity tots your eyes into a pool of muck. GOOD Job!"
+
+else:
+		print "You stumble around and fall on a knife and die. hahahahh"
+
+
+
+
